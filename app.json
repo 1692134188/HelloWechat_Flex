@@ -1,13 +1,46 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/shopping/shopping",
+    "pages/myInfo/myInfo"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "逃宝",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#FFCC33",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/tabbar/shouye.png",
+        "selectedIconPath": "/static/tabbar/shouyefill.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/static/tabbar/xinxi.png",
+        "selectedIconPath": "/static/tabbar/xinxifill.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "购物",
+        "iconPath": "/static/tabbar/cart.png",
+        "selectedIconPath": "/static/tabbar/cart_hover.png"
+      }
+      ,
+      {
+        "pagePath": "pages/myInfo/myInfo",
+        "text": "用户",
+        "iconPath": "/static/tabbar/yonghu.png",
+        "selectedIconPath": "/static/tabbar/yonghufill.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

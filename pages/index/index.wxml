@@ -1,13 +1,75 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+<view class="header">
+	<view class="icon">
+		<image src="/static/index/icon_01.png"></image>
+		<text>奇思妙想</text>
+	</view>
+	<view class="icon">
+		<image src="/static/index/icon_03.png"></image>
+		<text>合作共赢</text>
+	</view>
+	<view class="icon">
+		<image src="/static/index/icon_05.png"></image>
+		<text>集思广益</text>
+	</view>
+	<view class="icon">
+		<image src="/static/index/icon_07.png"></image>
+		<text>云上生活</text>
+	</view>
+</view>
+
+<view class="content">
+	<view class="guobao">
+		<view class="guobaoDet">
+			<view class="guobaoPic">
+				<image src="/static/index/1.jpg">
+				</image>
+			</view>
+
+			<view class="guobaoOwner">
+				<view class="OwnerName">
+					<image src="/static/index/owner.png"></image>
+					<text >盖聂</text>
+				</view>
+				<view class="OwnerFans">
+					<image src="/static/index/fans.png"></image>
+					<text >100万</text>
+				</view>
+
+			</view>
+			<view class="guobaoFrom">
+				<text>秦时明月</text>
+			</view>
+		</view>
+		<view class="guobaoPic">
+			<image src="/static/index/2.jpg">
+			</image>
+			<text>乔峰</text>
+		</view>
+	</view>
+
+	<view class="guobao">
+		<image src="/static/index/3.jpg">
+		</image>
+		<image src="/static/index/4.jpg">
+		</image>
+	</view>
+	<view class="guobao">
+		<image src="/static/index/5.jpg">
+		</image>
+		<image src="/static/index/6.jpg">
+		</image>
+	</view>
+	<view class="guobao">
+		<image src="/static/index/7.jpg">
+		</image>
+		<image src="/static/index/8.jpg">
+		</image>
+	</view>
+	<view class="guobao">
+		<image src="/static/index/9.jpg">
+		</image>
+		<image src="/static/index/10.jpg">
+		</image>
+	</view>
 </view>

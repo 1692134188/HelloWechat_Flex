@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content:space-around;
   color: white;
+  margin-bottom: 20rpx;
 }
 .header .top{
   display: flex;
@@ -15,6 +16,7 @@
 .header .top image{
   width: 100rpx;
   height: 100rpx;
+  vertical-align: middle;
 }
 .header .top .user_pic{
     margin:20rpx 10rpx 20rpx 30rpx;
@@ -47,4 +49,64 @@
   flex-direction: column;
   justify-content:space-around;
   align-items: center;
+}
+.content{
+  margin-top:60rpx;
+}
+.content .contentList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.content .contentList .item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.content .contentList .item image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.content .mycontent {
+  margin-top: 100rpx;
+  border-top:10rpx solid  darkgrey;
+}
+.content .mycontent .my_content_title{
+  font-size: 39rpx;
+  font-weight: 600;
+}
+.content .mycontent .item{
+  height: 100rpx;
+  margin: 50rpx 30rpx 50rpx 30rpx;
+  border-bottom:4rpx solid  rgb(169, 169, 169);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.content .mycontent .my_content_detail{
+  font-size: 35rpx;
+  font-weight: 200;
+}
+.footer {
+  margin: 100rpx 0 100rpx 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer .item{
+  border: 4rpx solid rgb(169, 169, 169);
+  border-radius: 20rpx;
+  padding: 10rpx 10rpx 10rpx 10rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+.footer_item_text{
+  margin-left: 10rpx;
+}
+.footer image {
+  height: 50rpx;
+  width: 50rpx;
+  vertical-align: middle;
 }

@@ -1,1 +1,43 @@
 /* pages/shopping/shopping.wxss */
+.shopping{
+  margin: 0rpx 10rpx 50rpx 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+.shopping .title{
+  font-size: 40rpx;
+  font-weight: 800;
+}
+.shopping .watch{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.shopping .watch .watch_status{
+  background-color: darkturquoise;
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  border-radius: 30rpx;
+  color: white;
+  width: 150rpx;
+  text-align: center;
+}
+.shopping .watch .watch_nums{
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  font-weight:100;
+  font-size: 35rpx;
+}
+.shopping .main_pic image{
+  margin: 10rpx 10rpx 10rpx 10rpx;
+}
+.shopping .detail_pic image{
+    height: 200rpx;
+    width: 200rpx;
+}
+.shopping .detail_pic{
+  display: flex;
+  flex-direction: row;
+}
+.shopping .detail_pic image{
+  margin: 10rpx 5rpx 10rpx 5rpx;
+}

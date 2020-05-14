@@ -1,2 +1,46 @@
 <!--pages/shopping/shopping.wxml-->
-<text>pages/shopping/shopping.wxml</text>
+
+<view class="shopping">
+	<view >
+		<text class="title">
+    甘肃博物馆 马踏飞燕
+  </text>
+		<view class="watch">
+			<text class="watch_status">预展中</text>
+			<text class="watch_nums">30000次围观</text>
+		</view>
+		<view class="main_pic">
+			<image src="/static/shopping/mtfy.jpg"></image>
+		</view>
+		<view class="detail_pic">
+			<image src="/static/shopping/mtfy1.jpg"></image>
+			<image src="/static/shopping/mtfy2.jpg"></image>
+			<image src="/static/shopping/mtfy3.jpg"></image>
+			<image src="/static/shopping/mtfy4.jpg"></image>
+			<image src="/static/shopping/mtfy5.jpg"></image>
+		</view>
+	</view>
+</view>
+
+
+<view class="shopping">
+	<view >
+		<text class="title">
+    湖南博物馆 越王勾践剑
+  </text>
+		<view class="watch">
+			<text class="watch_status">预展中</text>
+			<text class="watch_nums">30000次围观</text>
+		</view>
+		<view class="main_pic">
+			<image src="/static/shopping/ywgj.jpg"></image>
+		</view>
+		<view class="detail_pic">
+			<image src="/static/shopping/ywgj1.jpg"></image>
+			<image src="/static/shopping/ywgj2.jpg"></image>
+			<image src="/static/shopping/ywgj3.jpg"></image>
+			<image src="/static/shopping/ywgj4.jpg"></image>
+			<image src="/static/shopping/ywgj5.jpg"></image>
+		</view>
+	</view>
+</view>

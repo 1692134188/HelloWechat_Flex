@@ -19,13 +19,13 @@
 </view>
 
 <view class="content">
+
 	<view class="guobao">
 		<view class="guobaoDet">
 			<view class="guobaoPic">
 				<image src="/static/index/1.jpg">
 				</image>
 			</view>
-
 			<view class="guobaoOwner">
 				<view class="OwnerName">
 					<image src="/static/index/owner.png"></image>
@@ -35,41 +35,189 @@
 					<image src="/static/index/fans.png"></image>
 					<text >100万</text>
 				</view>
-
 			</view>
 			<view class="guobaoFrom">
 				<text>秦时明月</text>
 			</view>
 		</view>
-		<view class="guobaoPic">
-			<image src="/static/index/2.jpg">
-			</image>
-			<text>乔峰</text>
+		<view class="guobaoDet">
+			<view class="guobaoPic">
+				<image src="/static/index/2.jpg">
+				</image>
+			</view>
+			<view class="guobaoOwner">
+				<view class="OwnerName">
+					<image src="/static/index/owner.png"></image>
+					<text >乔峰</text>
+				</view>
+				<view class="OwnerFans">
+					<image src="/static/index/fans.png"></image>
+					<text >99万</text>
+				</view>
+			</view>
+			<view class="guobaoFrom">
+				<text>秦时明月</text>
+			</view>
 		</view>
 	</view>
-
 	<view class="guobao">
-		<image src="/static/index/3.jpg">
-		</image>
-		<image src="/static/index/4.jpg">
-		</image>
+		<view class="guobaoDet">
+			<view class="guobaoPic">
+				<image src="/static/index/3.jpg">
+				</image>
+			</view>
+			<view class="guobaoOwner">
+				<view class="OwnerName">
+					<image src="/static/index/owner.png"></image>
+					<text >李慕白</text>
+				</view>
+				<view class="OwnerFans">
+					<image src="/static/index/fans.png"></image>
+					<text >10万</text>
+				</view>
+			</view>
+			<view class="guobaoFrom">
+				<text>卧虎藏龙</text>
+			</view>
+		</view>
+		<view class="guobaoDet">
+			<view class="guobaoPic">
+				<image src="/static/index/4.jpg">
+				</image>
+			</view>
+			<view class="guobaoOwner">
+				<view class="OwnerName">
+					<image src="/static/index/owner.png"></image>
+					<text >俞秀莲</text>
+				</view>
+				<view class="OwnerFans">
+					<image src="/static/index/fans.png"></image>
+					<text >9万</text>
+				</view>
+			</view>
+			<view class="guobaoFrom">
+				<text>卧虎藏龙</text>
+			</view>
+		</view>
 	</view>
 	<view class="guobao">
-		<image src="/static/index/5.jpg">
-		</image>
-		<image src="/static/index/6.jpg">
-		</image>
+		<view class="guobaoDet">
+			<view class="guobaoPic">
+				<image src="/static/index/5.jpg">
+				</image>
+			</view>
+			<view class="guobaoOwner">
+				<view class="OwnerName">
+					<image src="/static/index/owner.png"></image>
+					<text >李白</text>
+				</view>
+				<view class="OwnerFans">
+					<image src="/static/index/fans.png"></image>
+					<text >100万</text>
+				</view>
+			</view>
+			<view class="guobaoFrom">
+				<text>唐</text>
+			</view>
+		</view>
+		<view class="guobaoDet">
+			<view class="guobaoPic">
+				<image src="/static/index/6.jpg">
+				</image>
+			</view>
+			<view class="guobaoOwner">
+				<view class="OwnerName">
+					<image src="/static/index/owner.png"></image>
+					<text >苏轼</text>
+				</view>
+				<view class="OwnerFans">
+					<image src="/static/index/fans.png"></image>
+					<text >100000000万</text>
+				</view>
+			</view>
+			<view class="guobaoFrom">
+				<text>宋</text>
+			</view>
+		</view>
 	</view>
 	<view class="guobao">
-		<image src="/static/index/7.jpg">
-		</image>
-		<image src="/static/index/8.jpg">
-		</image>
+		<view class="guobaoDet">
+			<view class="guobaoPic">
+				<image src="/static/index/7.jpg">
+				</image>
+			</view>
+			<view class="guobaoOwner">
+				<view class="OwnerName">
+					<image src="/static/index/owner.png"></image>
+					<text >秦始皇</text>
+				</view>
+				<view class="OwnerFans">
+					<image src="/static/index/fans.png"></image>
+					<text >100万</text>
+				</view>
+			</view>
+			<view class="guobaoFrom">
+				<text>秦</text>
+			</view>
+		</view>
+		<view class="guobaoDet">
+			<view class="guobaoPic">
+				<image src="/static/index/8.jpg">
+				</image>
+			</view>
+			<view class="guobaoOwner">
+				<view class="OwnerName">
+					<image src="/static/index/owner.png"></image>
+					<text >汉武帝</text>
+				</view>
+				<view class="OwnerFans">
+					<image src="/static/index/fans.png"></image>
+					<text >99万</text>
+				</view>
+			</view>
+			<view class="guobaoFrom">
+				<text>汉</text>
+			</view>
+		</view>
 	</view>
-	<view class="guobao">
-		<image src="/static/index/9.jpg">
-		</image>
-		<image src="/static/index/10.jpg">
-		</image>
+		<view class="guobao">
+		<view class="guobaoDet">
+			<view class="guobaoPic">
+				<image src="/static/index/9.jpg">
+				</image>
+			</view>
+			<view class="guobaoOwner">
+				<view class="OwnerName">
+					<image src="/static/index/owner.png"></image>
+					<text >成吉思汗</text>
+				</view>
+				<view class="OwnerFans">
+					<image src="/static/index/fans.png"></image>
+					<text >100万</text>
+				</view>
+			</view>
+			<view class="guobaoFrom">
+				<text>元</text>
+			</view>
+		</view>
+		<view class="guobaoDet">
+			<view class="guobaoPic">
+				<image src="/static/index/10.jpg">
+				</image>
+			</view>
+			<view class="guobaoOwner">
+				<view class="OwnerName">
+					<image src="/static/index/owner.png"></image>
+					<text >孙悟空</text>
+				</view>
+				<view class="OwnerFans">
+					<image src="/static/index/fans.png"></image>
+					<text >99万</text>
+				</view>
+			</view>
+			<view class="guobaoFrom">
+				<text>斗战胜佛</text>
+			</view>
+		</view>
 	</view>
 </view>

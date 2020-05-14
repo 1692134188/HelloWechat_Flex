@@ -1,2 +1,33 @@
 <!--pages/myInfo/myInfo.wxml-->
-<text>pages/myInfo/myInfo.wxml</text>
+<view class="header">
+	<view class="top">
+		<view class="user_pic">
+			<image src="/static/myinfo/user_icon.png"></image>
+      <text>登录</text>
+      <text>|</text>
+			<text>注册</text>
+		</view>		 
+		<view class="seeme">
+			<text>查看个人主页</text>
+		</view>
+	</view>
+	<view class="bottom">
+		<view class="item">
+			<text>0</text>
+			<text>关注</text>
+		</view>
+		<view class="item">
+			<text>1</text>
+			<text>粉丝</text>
+		</view>
+		<view class="item">
+			<text>2</text>
+			<text>赞与收藏</text>
+		</view>
+		<view class="item">
+			<text>3</text>
+			<text>好友动态</text>
+		</view>
+	</view>
+
+</view>

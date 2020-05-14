@@ -1,1 +1,60 @@
 /* pages/message.wxss */
+
+.header {
+  width: 100%;
+  position: fixed;
+  background-color:black;
+  color: white;
+}
+.headerContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.headerContent .item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container image {  
+  width: 100rpx;
+  height: 100rpx;
+}
+.container .message {
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content:start;
+}
+.messageContent .messageTop{
+  width: 650rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .message .messageContent .msgSendTime{
+  margin-right: 10rpx;
+}
+
+.container .message .messageContent .messageBottom{
+  /*单行文本超出*/
+  width: auto;
+  display: -webkit-box; /*设置为弹性盒子*/
+  -webkit-line-clamp: 1;/*最多显示1行数据*/
+  overflow: hidden; /*超出备份隐藏*/
+  text-overflow: ellipsis; /*超出显示为省略号*/
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}

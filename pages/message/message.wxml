@@ -1,2 +1,158 @@
-<!--pages/message.wxml-->
-<text>pages/message.wxml</text>
+<view class="header">
+	<view class="headerContent">
+		<view class="item">
+			<image src="/static/message/xihuan.png"></image>
+			<text>赞和收藏</text>
+		</view>
+		<view class="item">
+			<image src="/static/message/friends.png"></image>
+			<text>最近来访</text>
+		</view>
+		<view class="item">
+			<image src="/static/message/communication.png"></image>
+			<text>评论和@</text>
+		</view>
+	</view>
+</view>
+<view class="container">
+	<view class="message">
+		<view class="messagePic">
+			<image src="/static/message/message.png"></image>
+		</view>
+		<view class="messageContent">
+			<view class="messageTop">
+				<text>系統消息</text>
+				<text class="msgSendTime">2020-02-02</text>
+			</view>
+			<view class="messageBottom">
+				<text>中國加油！武漢加油！眾志成城，抗擊疫情</text>
+			</view>
+		</view>
+	</view>
+	<view class="message">
+		<view class="messagePic">
+			<image src="/static/message/message.png"></image>
+		</view>
+		<view class="messageContent">
+			<view class="messageTop">
+				<text>辛弃疾</text>
+				<text class="msgSendTime">1882-02-02</text>
+			</view>
+			<view class="messageBottom">
+				<text>我见青山多妩媚，料青山见我应如是</text>
+			</view>
+		</view>
+	</view>
+	<view class="message">
+		<view class="messagePic">
+			<image src="/static/message/message.png"></image>
+		</view>
+		<view class="messageContent">
+			<view class="messageTop">
+				<text>苏轼</text>
+				<text class="msgSendTime">2020-02-02</text>
+			</view>
+			<view class="messageBottom">
+				<text>泥上偶然留指爪,鸿飞那复计东西</text>
+			</view>
+		</view>
+	</view>
+	<view class="message">
+		<view class="messagePic">
+			<image src="/static/message/message.png"></image>
+		</view>
+		<view class="messageContent">
+			<view class="messageTop">
+				<text>zhagnsan</text>
+				<text class="msgSendTime">2020-02-02</text>
+			</view>
+			<view class="messageBottom">
+				<text>你好</text>
+			</view>
+		</view>
+	</view>
+	<view class="message">
+		<view class="messagePic">
+			<image src="/static/message/message.png"></image>
+		</view>
+		<view class="messageContent">
+			<view class="messageTop">
+				<text>李四</text>
+				<text class="msgSendTime">2020-02-02</text>
+			</view>
+			<view class="messageBottom">
+				<text>hello</text>
+			</view>
+		</view>
+	</view>
+	<view class="message">
+		<view class="messagePic">
+			<image src="/static/message/message.png"></image>
+		</view>
+		<view class="messageContent">
+			<view class="messageTop">
+				<text>系統消息</text>
+				<text class="msgSendTime">2020-02-02</text>
+			</view>
+			<view class="messageBottom">
+				<text>中國加油！武漢加油！眾志成城，抗擊疫情</text>
+			</view>
+		</view>
+	</view>
+	<view class="message">
+		<view class="messagePic">
+			<image src="/static/message/message.png"></image>
+		</view>
+		<view class="messageContent">
+			<view class="messageTop">
+				<text>系統消息</text>
+				<text class="msgSendTime">2020-02-02</text>
+			</view>
+			<view class="messageBottom">
+				<text>中國加油！武漢加油！眾志成城，抗擊疫情</text>
+			</view>
+		</view>
+	</view>
+	<view class="message">
+		<view class="messagePic">
+			<image src="/static/message/message.png"></image>
+		</view>
+		<view class="messageContent">
+			<view class="messageTop">
+				<text>系統消息</text>
+				<text class="msgSendTime">2020-02-02</text>
+			</view>
+			<view class="messageBottom">
+				<text>中國加油！武漢加油！眾志成城，抗擊疫情</text>
+			</view>
+		</view>
+	</view>
+	<view class="message">
+		<view class="messagePic">
+			<image src="/static/message/message.png"></image>
+		</view>
+		<view class="messageContent">
+			<view class="messageTop">
+				<text>系統消息</text>
+				<text class="msgSendTime">2020-02-02</text>
+			</view>
+			<view class="messageBottom">
+				<text>中國加油！武漢加油！眾志成城，抗擊疫情</text>
+			</view>
+		</view>
+	</view>
+	<view class="message">
+		<view class="messagePic">
+			<image src="/static/message/message.png"></image>
+		</view>
+		<view class="messageContent">
+			<view class="messageTop">
+				<text>系統消息</text>
+				<text class="msgSendTime">2020-02-02</text>
+			</view>
+			<view class="messageBottom">
+				<text>中國加油！武漢加油！眾志成城，抗擊疫情</text>
+			</view>
+		</view>
+	</view>
+</view>

@@ -29,7 +29,7 @@
 				<text class="Owner_text">{{item.ownerName}}</text>
 			</view>
 			<view class="OwnerFans">
-				<image src="/static/index/fans.png"></image>
+				<image src="/static/index/fans.png" bindtap="fansClick" data-index="{{index}}"></image>
 				<text class="Owner_text">{{item.ownerFansNums}}</text>
 			</view>
 		</view>

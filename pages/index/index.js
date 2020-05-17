@@ -122,18 +122,32 @@ Page({
       hasUserInfo: true
     })
   },
+  fansClick: function (e) {
+    // 提前准备好对象
+    let index = e.currentTarget.dataset['index'];
+    var item = this.data.guobaoList[index]
+    item.ownerFansNums++;
+    // 依旧是根据index获取数组中的对象
+    var key = "guobaoList[" + index + "]"
+    this.setData({
+      // 这里使用键值对方式赋值
+      key: item
+    }, function () { this.onReady() })
+    this.setData({
+      guobaoList: this.data.guobaoList
+    })
+  },
   likeClick: function (e) {
     // 提前准备好对象
     let index = e.currentTarget.dataset['index'];
     var item = this.data.guobaoList[index]
-    console.log(item);
     item.isLike = !item.isLike;
     // 依旧是根据index获取数组中的对象
     var key = "guobaoList[" + index + "]"
     this.setData({
       // 这里使用键值对方式赋值
       key: item
-    }, function () {this.onReady() })
-    
+    }, function () { })
+    this.setData({ guobaoList: this.data.guobaoList })
   }
 })

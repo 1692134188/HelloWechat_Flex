@@ -1,0 +1,2 @@
+<!--pages/navigate.wxml-->
+<text>{{content}}</text>

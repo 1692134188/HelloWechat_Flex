@@ -10,70 +10,70 @@ Page({
         isLike: true,
         ownerName: "盖聂",
         ownerFansNums: 500,
-        ownerForm: '秦时明月'
+        ownerFrom: '秦时明月'
       },
       {
         pic_url: "/static/index/2.jpg",
         isLike: true,
         ownerName: "乔峰",
         ownerFansNums: 600,
-        ownerForm: '天龙八部'
+        ownerFrom: '天龙八部'
       },
       {
         pic_url: "/static/index/3.jpg",
         isLike: true,
         ownerName: "Harry Petter",
         ownerFansNums: 50,
-        ownerForm: '哈利 波特'
+        ownerFrom: '哈利 波特'
       },
       {
         pic_url: "/static/index/4.jpg",
         isLike: false,
         ownerName: "伏地魔",
         ownerFansNums: 600,
-        ownerForm: '哈利 波特'
+        ownerFrom: '哈利 波特'
       },
       {
         pic_url: "/static/index/5.jpg",
         isLike: true,
         ownerName: "琼恩 雪诺",
         ownerFansNums: 50,
-        ownerForm: '冰与火'
+        ownerFrom: '冰与火'
       },
       {
         pic_url: "/static/index/6.jpg",
         isLike: false,
         ownerName: "夜王",
         ownerFansNums: 600,
-        ownerForm: '权力的游戏'
+        ownerFrom: '权力的游戏'
       },
       {
         pic_url: "/static/index/7.jpg",
         isLike: true,
         ownerName: "苏轼",
         ownerFansNums: 50,
-        ownerForm: '宋'
+        ownerFrom: '宋'
       },
       {
         pic_url: "/static/index/8.jpg",
         isLike: true,
         ownerName: "李白",
         ownerFansNums: 600,
-        ownerForm: '唐'
+        ownerFrom: '唐'
       },
       {
         pic_url: "/static/index/9.jpg",
         isLike: true,
         ownerName: "秦始皇",
         ownerFansNums: 50,
-        ownerForm: '秦'
+        ownerFrom: '秦'
       },
       {
         pic_url: "/static/index/10.jpg",
         isLike: true,
         ownerName: "汉武帝",
         ownerFansNums: 60,
-        ownerForm: '汉'
+        ownerFrom: '汉'
       }
     ]
   },

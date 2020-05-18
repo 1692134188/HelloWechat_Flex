@@ -34,7 +34,7 @@
 			</view>
 		</view>
 		<view class="guobaoForm">
-			<text>{{item.ownerForm}}</text>
+			<navigator url="../navigate/navigate?fromName={{item.ownerFrom}}&userName={{item.ownerName}}" hover-class="navigator-hover">{{item.ownerFrom}}</navigator>
 		</view>
 	</view>
 </view>

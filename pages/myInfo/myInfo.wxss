@@ -23,6 +23,9 @@
     align-items: center;
     justify-content: center;
 }
+.header .top .user_pic image{
+  border-radius: 100rpx;
+}
 .header .top .seeme{  
   background-color: teal;
   height: 80rpx;

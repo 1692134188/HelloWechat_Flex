@@ -2,10 +2,11 @@
 <view class="header">
 	<view class="top">
 		<view class="user_pic">
-			<image src="/static/myinfo/user_icon.png"></image>
-			<text>登录</text>
+			<image src="{{userinfo.avatarUrl}}"></image>
+			<!-- <text>登录</text>
 			<text>|</text>
-			<text>注册</text>
+			<text>注册</text> -->
+			<text>{{userinfo.nickName}}</text>
 		</view>
 		<view class="seeme">
 			<text>查看个人主页</text>

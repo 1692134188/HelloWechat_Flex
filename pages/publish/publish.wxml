@@ -1,0 +1,46 @@
+<!--pages/publish.wxml-->
+<view class="viewImage">
+	<view class="container">
+		<textarea placeholder="这一刻的想法...">
+    </textarea>
+		<image wx:for="{{publich.imageList}}" src="{{item}}"></image>
+		<image wx:if="{{publich.imageList.length <9 }}" bindtap="uploadImage" src="/static/publish/add.png"></image>
+	</view>
+</view>
+<view class="bottom">
+
+	<view class="item" bindtap="chooseLocation">
+		<view class="item_left">
+			<image wx:if="{{publich.location}}" src="/static/publish/locationfill.png"></image>
+			<image wx:else src="/static/publish/location.png"></image>
+			<text wx:if="{{publich.location}}"  class="my_content_title">{{publich.location}}</text>
+			<text wx:else class="my_content_title">所在位置</text>
+		</view>
+		<view class="my_content_detail">
+			<text > > </text>
+		</view>
+	</view>
+ 
+	<view class="item" >
+		<view class="item_left">
+			<image wx:if="{{publich.attUserList}}" src="/static/publish/tixingfill.png"></image>
+			<image wx:else src="/static/publish/tixing.png"></image>
+			<text wx:if="{{publich.attUserList}}"  class="my_content_title">{{publich.attUserList}}</text>
+			<text wx:else class="my_content_title">提醒谁看</text>
+		</view>
+		<view class="my_content_detail">
+			<text > > </text>
+		</view>
+	</view>
+  	<view class="item" >
+		<view class="item_left">
+			<image wx:if="{{publich.canUserList}}" src="/static/publish/yonghufill.png"></image>
+			<image wx:else src="/static/publish/yonghu.png"></image>
+			<text wx:if="{{publich.canUserList}}"  class="my_content_title">{{publich.canUserList}}</text>
+			<text wx:else class="my_content_title">谁可以看</text>
+		</view>
+		<view class="my_content_detail">
+			<text > > </text>
+		</view>
+	</view>
+</view>

@@ -22,7 +22,7 @@
 .content{
   display: flex;
   flex-flow: row wrap;  
- align-content: space-around;
+  align-content: space-around;
 }
 .content .guobaoPic{
   width: 350rpx;

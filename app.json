@@ -5,7 +5,8 @@
     "pages/shopping/shopping",
     "pages/myInfo/myInfo",
     "pages/logs/logs",
-    "pages/navigate/navigate"
+    "pages/navigate/navigate",
+    "pages/publish/publish"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -27,6 +28,12 @@
         "text": "消息",
         "iconPath": "/static/tabbar/xinxi.png",
         "selectedIconPath": "/static/tabbar/xinxifill.png"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "/static/tabbar/publish.png",
+        "selectedIconPath": "/static/tabbar/publishfill.png"
       },
       {
         "pagePath": "pages/shopping/shopping",

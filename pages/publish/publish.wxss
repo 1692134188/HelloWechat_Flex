@@ -1,0 +1,41 @@
+/* pages/publish.wxss */
+.viewImage .upload image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.upload{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-flow: row wrap;  
+  align-content: space-around;
+}
+.container image{
+  width: 230rpx;
+  height: 230rpx;
+  margin: 10rpx 10rpx 10rpx 10rpx ;
+}
+.bottom {
+  display: flex;
+  flex-flow: column;  
+  align-content: space-around;
+}
+.bottom .item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 4rpx solid rgb(169, 169, 169);
+  margin-right: 20rpx;
+}
+
+.bottom .item image{
+  width: 80rpx;
+  height: 80rpx;
+}
+ 
+

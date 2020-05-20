@@ -5,8 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    userinfo:{
-      avatarUrl:"/static/myinfo/user_icon.png",
+    userinfo: {
+      avatarUrl: "/static/myinfo/user_icon.png",
     }
   },
 
@@ -17,16 +17,24 @@ Page({
     var that = this;
     wx.getUserInfo({
       success: function (res) {
-        console.log(res)
-        console.log(res.userInfo)
         that.data.userInfo = res.userInfo;
         that.setData({
-          userinfo: that.data.userInfo
+          //userinfo: that.data.userInfo //方式一 获取用户信息
         })
       }
     })
   },
-
+  bindGetUserInfo: function () {
+    var that = this;
+    wx.getUserInfo({
+      success: function (res) {
+        that.data.userInfo = res.userInfo;
+        that.setData({
+           userinfo: that.data.userInfo //方式二 获取用户信息
+        })
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -41,6 +41,12 @@
   align-items: center;
   justify-content: center;
 }
+.header .showUserInfo button{
+  background-color: teal;
+  width: 280rpx;
+  height: 80rpx;
+  padding: 10rpx 0 0 0;
+}
 .header .bottom{
   display: flex;
   flex-direction: row;

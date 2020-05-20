@@ -12,6 +12,7 @@
 			<text>查看个人主页</text>
 		</view>
 	</view>
+	<view class="showUserInfo" > <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">用户授权</button></view>
 	<view class="bottom">
 		<view class="item">
 			<text>0</text>
